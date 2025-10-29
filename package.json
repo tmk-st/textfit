@@ -1,0 +1,45 @@
+{
+  "name": "textfit",
+  "version": "0.1.0",
+  "description": "日本語特化の入力補正ライブラリ",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:coverage": "vitest --coverage"
+  },
+  "keywords": [
+    "japanese",
+    "normalization",
+    "input",
+    "validation",
+    "sanitization",
+    "zenkaku",
+    "hankaku",
+    "katakana",
+    "hiragana"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "@vitest/ui": "^3.2.4",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}
