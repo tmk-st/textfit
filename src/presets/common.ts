@@ -33,6 +33,11 @@ export function normalizePhone(
     result = toHankakuAlphanumeric(result);
   }
 
+  // 国際番号 +81 形式はそのまま返す（フォーマット変更しない）
+  if (/^\+81[-\d]+$/.test(result)) {
+    return result;
+  }
+
   // すべてのハイフンを削除してから整形
   result = result.replace(/[-－‐]/g, "");
 
@@ -178,7 +183,7 @@ export function normalizeNumber(str: string): string {
   result = toHankakuAlphanumeric(result);
 
   // カンマを削除
-  result = result.replace(/,/g, "");
+  result = result.replace(/[,，]/g, "");
 
   // 空白削除
   result = result.replace(/\s/g, "");

@@ -19,7 +19,7 @@ export function normalizeSymbols(str: string): string {
   return (
     str
       // ハイフン類を統一
-      .replace(/[‐－―ー]/g, "-")
+      .replace(/[‐－―‐−–—―]/g, "-")
       // 波ダッシュ
       .replace(/[〜～]/g, "~")
       // 中点

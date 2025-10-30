@@ -6,7 +6,7 @@
  * 全角英数字を半角に変換
  */
 export function toHankakuAlphanumeric(str: string): string {
-  return str.replace(/[Ａ-Ｚａ-ｚ０-９]/g, (char) => {
+  return str.replace(/[Ａ-Ｚａ-ｚ０-９！＂＃＄％＆＇（）＊＋，－．／：；＜＝＞？＠［＼］＾＿｀｛｜｝～]/g, (char) => {
     return String.fromCharCode(char.charCodeAt(0) - 0xfee0);
   });
 }
