@@ -1,4 +1,4 @@
-# textfit
+# textfit jp
 
 **日本語特化の入力補正ライブラリ**
 

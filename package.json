@@ -1,5 +1,5 @@
 {
-  "name": "textfit",
+  "name": "textfit-jp",
   "version": "0.1.0",
   "description": "日本語特化の入力補正ライブラリ",
   "main": "./dist/index.js",
