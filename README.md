@@ -15,8 +15,6 @@ yarn add textfit
 pnpm add textfit
 ```
 
-> 💡 **開発者向け**: プロジェクトをクローンして開発する場合は [SETUP.md](./SETUP.md) を参照してください
-
 ## クイックスタート
 
 ```javascript
