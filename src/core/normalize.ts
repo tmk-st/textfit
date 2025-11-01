@@ -59,7 +59,7 @@ export function normalizeText(
     ...options,
   };
 
-  // 順序が重要：カナ変換 → 英数字変換 → 空白処理 → 記号正規化
+  // NOTE: カナ変換 → 英数字変換 → 空白処理 → 記号正規化
 
   // カナ変換
   if (opts.toHiragana) {

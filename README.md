@@ -64,10 +64,4 @@ normalizeEmail("test＠gamil.com");
 - `formatCreditCard(str)` - クレジットカード
 - `normalizePostalCode(str)` - 郵便番号
 
-> 💡 詳細なオプションは [API ドキュメント](./docs/API.md) を参照してください。
-
-## ドキュメント
-
-- **[API ドキュメント](./docs/API.md)** - 全関数の詳細な説明とオプション
-- **[セットアップガイド](./SETUP.md)** - 開発環境のセットアップ方法
-- **[ブラウザデモ](./examples/browser.html)** - ブラウザで動作するデモ
+> 💡 詳細なオプションは[**API ドキュメント**](./docs/API.md)を参照してください

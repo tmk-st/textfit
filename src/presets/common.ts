@@ -1,5 +1,5 @@
 /**
- * 日本語向けプリセット（実用的な補正関数）
+ * 日本語向けプリセット
  */
 
 import type {
@@ -33,7 +33,7 @@ export function normalizePhone(
     result = toHankakuAlphanumeric(result);
   }
 
-  // 国際番号 +81 形式はそのまま返す（フォーマット変更しない）
+  // 国際番号+81形式はそのまま返す（フォーマット変更しない）
   if (/^\+81[-\d]+$/.test(result)) {
     return result;
   }
@@ -72,7 +72,6 @@ export function normalizePhone(
 
 /**
  * メールアドレスを正規化
- * よくあるタイポを修正
  */
 export function normalizeEmail(
   str: string,
