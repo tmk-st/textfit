@@ -11,11 +11,11 @@
 ## インストール
 
 ```bash
-npm install textfit
+npm install textfit-jp
 # or
-yarn add textfit
+yarn add textfit-jp
 # or
-pnpm add textfit
+pnpm add textfit-jp
 ```
 
 ## クイックスタート
