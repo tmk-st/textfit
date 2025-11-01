@@ -2,6 +2,9 @@
 
 **日本語特化の入力補正ライブラリ**
 
+全角/半角変換、カナ変換、電話番号・メールアドレスなどの正規化を簡単に実行できます。  
+フォーム入力の正規化、表示の統一化、データベース保存前の標準化など、様々な用途に対応。
+
 [![npm version](https://img.shields.io/npm/v/textfit.svg)](https://www.npmjs.com/package/textfit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
